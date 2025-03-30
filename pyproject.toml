@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "exit_track"
+version = "0.1.0"
+description = "在程序退出时自动向微信发送消息"
+authors = [
+    { name="YYM", email="yaoyiming@stu.xmu.edu.cn" },
+]
+dependencies = []  # 目前没有额外依赖
+
+[project.optional-dependencies]
+
+[tool.setuptools]
+packages = ["exit_track"]
+
+[tool.setuptools.package-dir]
+exit_track = "exit_track"
