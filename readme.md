@@ -13,7 +13,7 @@ ExitTrack 是一个简单的 Python 工具，用于将程序执行结果发送�
 
 1. 克隆本项目到本地：
    ```bash
-   git clone https://github.com/yourusername/ExitTrack.git
+   git clone https://github.com/Chrono-Chasm/ExitTrack.git
    ```
 
 2. 进入项目根目录并安装：
