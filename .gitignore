@@ -1,2 +1,3 @@
 build
 exit_track.egg-info
+**/__pycache__/

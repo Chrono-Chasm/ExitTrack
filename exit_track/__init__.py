@@ -13,7 +13,7 @@ except Exception as e:
 
 
 def build_message():
-    summary = "喜报" if EXIT_STATUS == 0 else "悲报"
+    summary = "程序结束" 
     message = Message(
         content=f"{summary}：\n{get_exit_info()}",
         summary=summary,
@@ -32,7 +32,6 @@ def send_message():
 exit_hooks.add_exit_hook(send_message)
 
 __all__ = [
-    "EXIT_STATUS",
     "get_exit_info",
     "build_message",
     "Message",
